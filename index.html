@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="text">
+            <h1>Get answered to all your queries</h1>
+            <p>See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how
+                developers think is invaluable.</p>
+        </div>
+
+        <div class="form-container">
+            <h3 class="login-btn box-shadow">Already have account with us? <a href="login.html">Login Here</a></h3>
+
+            <form class="box-shadow" id="form">
+                <!-- fullName -->
+                <div class="form-control error">
+                    <input type="text" name="fname" placeholder="Full Name" id="fullname">
+                    <i></i>
+                    <img class="error-icon" src="images/icon-error.svg" alt="">
+                </div>
+
+                <!-- userName -->
+                <div class="form-control error">
+                    <input type="text" name="uname" placeholder="Username" id="username">
+                    <i></i>
+                    <img class="error-icon" src="images/icon-error.svg" alt="">
+                </div>
+
+                <!-- <div class="form-control error">
+                    <label for="state">State:</label>
+                    <select id="state" name="state">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <i></i>
+                    <img class="error-icon" src="images/icon-error.svg" alt="">
+                </div> -->
+
+
+                <!-- email -->
+                <div class="form-control error">
+                    <input type="text" name="emailAddress" placeholder="Email Address" id="email">
+                    <i></i>
+                    <img class="error-icon" src="images/icon-error.svg" alt="">
+                </div>
+
+                <!-- password -->
+                <div class="form-control error">
+                    <input type="password" name="password" placeholder="Password" id="password">
+                    <i></i>
+                    <img class="error-icon" src="images/icon-error.svg" alt="">
+                </div>
+
+                <!-- confirmPassword -->
+                <div class="form-control error">
+                    <input type="password" name="confirm-password" placeholder="Confirm Password" id="confirm-password">
+                    <i></i>
+                    <img class="error-icon" src="images/icon-error.svg" alt="">
+                </div>
+
+                <!-- submitBtn -->
+                <input type="submit" value="Register" class="cta box-shadow">
+                <p class="user-content">By clicking the button, you are agreeing to our <a href="#">Terms and
+                        Services</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
